@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "renting-app-rn",
-    "slug": "renting-app-rn",
+    "slug": "shop-app-rn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Demo app",
+    "githubUrl": "https://github.com/mohmmad-owais/rn-shop-app"
   }
 }

@@ -1,6 +1,7 @@
 import {ImageBackground, StyleSheet, View, Text} from 'react-native';
 import React from 'react';
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import Colors from "../../constants/Colors";
 
 export default function WelcomeScreen ({navigation}) {
   return (
@@ -31,14 +32,14 @@ const styles = StyleSheet.create({
     borderRadius: 15,
     borderWidth: 3,
     borderColor: 'white',
-    backgroundColor: '#4ecdc4',
+    backgroundColor: Colors.primary,
     padding: 5,
     margin: '2%'
   },
   buttonText: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: 'black',
+    color: 'white',
     textAlign: 'center'
   },
   inlineText: {
